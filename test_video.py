@@ -80,7 +80,7 @@ if __name__ == '__main__':
                           dropout=False)
 
     try:
-        save_dict = torch.load('models/swingnet_1800.pth.tar')
+        save_dict = torch.load('models/swingnet_2000.pth.tar')
     except:
         print("Model weights not found. Download model weights and place in 'models' folder. See README for instructions")
 
